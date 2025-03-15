@@ -23,7 +23,6 @@ brew_install_list=(
     "package|pyenv|PyEnv"
 
     # Install applications.
-    "cask|cursor|Cursor.app"
     "cask|firefox|Firefox.app"
     "cask|gimp|GIMP.app"
     "cask|google-chrome|Google Chrome.app"
@@ -31,6 +30,7 @@ brew_install_list=(
     "cask|vlc|VLC.app"
     "cask|visual-studio-code|Visual Studio Code.app"
     "cask|windows-app|Windows App.app"
+    "cask|docker|Docker Desktop"
 )
 
 persistent_apps=(
@@ -38,7 +38,6 @@ persistent_apps=(
     "/System/Applications/Launchpad.app"
     "/System/Applications/Utilities/Terminal.app"
     "/Applications/Visual Studio Code.app"
-    "/Applications/Cursor.app"
     "/Applications/Google Chrome.app"
     "/Applications/Firefox.app"
 )
